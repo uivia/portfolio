@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+#title {
+    background-color: #0A2647;
+    padding: 3% 10%;
+    color: #fff;
+    
+    
+}
+/* navbar */
+.nav-item {
+    padding-right: 20px ;
+}
+ .nav-one {
+    color: #fff;
+ }
+
+ .navbar {
+    border-bottom: 1px solid gray;
+    background-color: #0A2647;
+    
+ }
+
+ 
+ /* content  */
+ .content-page {
+    margin-top: 100px ;
+ }
+
+ .img {
+    width: 100%;
+    border: 5px solid #fff;
+    border-radius: 50px;
+    min-width: 200px;
+ }
+
+ .content-text {
+    color: #fff;
+    text-transform: lowercase;
+ }
+
+
+ /* about me  */
+ #about-me {
+    background-color: #0A2647;
+    color: #fff;
+    
+ }
+
+ .about-items {
+    padding: 2% 10%;
+    line-height: 2;
+ }
+ 
+ .link {
+    text-decoration: none;
+    color: gold;
+ }
+
+ .link:hover{
+    color: aqua;
+ }
+
+
+/* Project section  */
+ #project {
+    padding: 3% 10%;
+    background-color: #0A2647;
+    color: #fff;
+
+ }
+ 
+ .proj-link {
+   text-decoration: none;
+   color: gold;
+ }
+
+ .proj-link:hover {
+   color: aqua;
+ }
+
+ /* Contact section  */
+ #contact {
+   background-color: #E7F6F2;
+ }
+
+ .contact-items {
+   /* padding: 10px 10% 0px; */
+ }
+
+ .contact-header {
+   color: #144272;
+ }
+
+ .icon {
+   color: #144272;
+   font-size: 3rem;
+   /* margin: 10px; */
+ }
+
+.mail-link {
+   text-decoration: none;
+   color: #0A2647;
+}
+
+.mail-link:hover {
+   color: gold;
+}
+
+.mail-icon, .phone-icon{
+   color: #0A2647;
+}
+
+/* Footer  */
+#footer {
+   background-color: #0A2647;
+   color: #E7F6F2;
+   padding: 10px;
+}
+
+.p-copyright {
+   text-decoration: none;
+   color: #E7f6f2;
+}
+
+.p-copyright:hover {
+   color: gold;
+}
+
+@media (max-width: 991px) {
+   
+   .content-page {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+   }
+
+   .nav-item {
+      text-align: center;
+   }
+
+   .content-text {
+      font-size: 1.4rem;
+   }
+
+   .content-items {
+      margin-bottom: 50px;
+   }
+
+   .content-image {
+      width: 40vh;
+   }
+
+   /* Project  */
+   .project-content {
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 767px) {
+   .content-items {
+      display: flex;
+      justify-content: center;
+   }
+
+   /* about  */
+   #about-me, #project {
+      text-align: center;
+   }
+}
